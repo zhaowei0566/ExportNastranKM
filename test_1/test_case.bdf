@@ -1,0 +1,51 @@
+$ NASTRAN input file created by the Patran 2012.2.1 64-Bit input file
+$ translator on February  02, 2015 at 00:11:17.
+$ Direct Text Input for Nastran System Cell Section
+$ Normal Modes Analysis, Database
+SOL 103
+CEND
+TITLE = MSC.NASTRAN JOB CREATED ON 01-FEB-15 AT 21:04:13
+ECHO = NONE
+$ Using Nastran default values for RESVEC
+SUBCASE 1
+   TITLE=MSC.NASTRAN JOB CREATED ON 01-FEB-15 AT 21:04:13
+   SUBTITLE=DEFAULT
+   METHOD = 113
+   SPC = 2
+   VECTOR(SORT1,REAL)=ALL
+   SPCFORCES(SORT1,REAL)=ALL
+BEGIN BULK
+PARAM,EXTOUT,matrixpch
+GRDSET,,,,,,,1256
+PARAM    POST    0
+PARAM   COUPMASS 1
+PARAM   PRTMAXIM YES
+EIGRL    1                       6       0                       MASS
+EIGR     113    GIV                             20
+         MASS
+$ Elements and Element Properties for region : beam
+PBARL    1       1               BAR
+        .1      .1       0.
+$ Pset: "beam" will be imported as: "pbarl.1"
+CBAR     1       1       1       2       0.      0.     1.
+CBAR     2       1       2       3       0.      0.     1.
+CBAR     3       1       3       4       0.      0.     1.
+CBAR     4       1       4       5       0.      0.     1.
+$ Elements and Element Properties for region : conm2
+CONM2    6       3       0      1080.    0.      0.      0.
+        1728.    0.      0.      0.      0.      0.
+$ Referenced Material Records
+$ Material Record : al
+$ Description of Material :
+MAT1*    1              7.+10           2.69231+10      .3
+*       2700.
+$ Nodes of the Entire Model
+GRID     1               0.     -2.      0.
+GRID     2               0.     -1.      0.
+GRID     3               0.      0.      0.
+GRID     4               0.     1.       0.
+GRID     5               0.     2.       0.
+$ Loads for Load Case : DEFAULT.SC1
+SUPORT,3,34
+$ Referenced Coordinate Frames
+ENDDATA 382500f6
