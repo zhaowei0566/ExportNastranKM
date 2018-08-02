@@ -10,7 +10,17 @@ Keep improving... (Wei Zhao: weizhao@vt.edu), enjoy!
 4. *.PCH includes stiffness and mass matrices. They are directly used in eigenvalue computation. We called A-set
 5. *.f06 includes eigenvalues and the corresponding eigenvectors from NASTRAN analysis - sol103
 6. For nodal labels, it is better to copy them from *.pch after the line 'DMIG*   VAX                            1               0' and unique these values. 
-   because some grids could possibly not considered in FEM, such as the massless point.
+   because some grids could possibly not considered in FEM when the element between two nodes has no properties, such as RBE2.
 ===
 7. Because Github cannot identify *.pch file automatically, the uploaded stiffness and mass matrices are stored in *.pch1 file.
    change them to *.pch when you download them, and run the program.
+=============================================================================================
+This work was done as a part of developed optimization program for aircraft wing design in flight dynamics/flutter analysis, please cite my dissertation if you think the
+code is useful, many thanks!
+
+@phdthesis{zhao2017optimal,
+  title={Optimal Design and Analysis of Bio-inspired, Curvilinearly Stiffened Composite Flexible Wings},
+  author={Zhao, Wei},
+  year={2017},
+  school={Virginia Tech}
+}
