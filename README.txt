@@ -1,7 +1,3 @@
-
-10.5281/zenodo.1284436
-
-
 This routine is mainly used to read the stiffness and mass matrices from NASTRAN output file
 Go to each test folder, run readKM_test_XXXX.m, select the corresponding *.pch file of interest
 when you use it for other model, something you need to change as follow.
@@ -19,12 +15,3 @@ Keep improving... (Wei Zhao: weizhao@vt.edu), enjoy!
 7. Because Github cannot identify *.pch file automatically, the uploaded stiffness and mass matrices are stored in *.pch1 file.
    change them to *.pch when you download them, and run the program.
 =============================================================================================
-This work was done as a part of developed optimization program for aircraft wing design in flight dynamics/flutter analysis, please cite my dissertation if you think the
-code is useful, many thanks!
-
-@phdthesis{zhao2017optimal,
-  title={Optimal Design and Analysis of Bio-inspired, Curvilinearly Stiffened Composite Flexible Wings},
-  author={Zhao, Wei},
-  year={2017},
-  school={Virginia Tech}
-}
