@@ -1,3 +1,7 @@
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1284436.svg)](https://doi.org/10.5281/zenodo.1284436)
+
+
 This routine is mainly used to read the stiffness and mass matrices from NASTRAN output file
 Go to each test folder, run readKM_test_XXXX.m, select the corresponding *.pch file of interest
 when you use it for other model, something you need to change as follow.
