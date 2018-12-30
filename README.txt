@@ -1,5 +1,5 @@
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1284436.svg)](https://doi.org/10.5281/zenodo.1284436)
+10.5281/zenodo.1284436
 
 
 This routine is mainly used to read the stiffness and mass matrices from NASTRAN output file
