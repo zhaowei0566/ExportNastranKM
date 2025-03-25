@@ -1,7 +1,7 @@
-This routine is mainly used to read the stiffness and mass matrices from NASTRAN output file
-Go to each test folder, run readKM_test_XXXX.m, select the corresponding *.pch file of interest
-when you use it for other model, something you need to change as follow.
-Keep improving... (Wei Zhao: weizhao@vt.edu), enjoy!
+  This routine is mainly used to read the stiffness and mass matrices from NASTRAN output file\
+Go to each test folder, run readKM_test_XXXX.m, select the corresponding *.pch file of interest\
+when you use it for other model, something you need to change as follow.\
+Keep improving... (Wei Zhao: weizhao@vt.edu), enjoy!\
 ============================================================================================
 1. Change path folder in addpath('') for each case. For example, in test_1 folder,
    change the line 43 folder path to yours where the readMass.m and readStiffness.m locate
@@ -15,3 +15,4 @@ Keep improving... (Wei Zhao: weizhao@vt.edu), enjoy!
 7. Because Github cannot identify *.pch file automatically, the uploaded stiffness and mass matrices are stored in *.pch1 file.
    change them to *.pch when you download them, and run the program.
 =============================================================================================
+ 
